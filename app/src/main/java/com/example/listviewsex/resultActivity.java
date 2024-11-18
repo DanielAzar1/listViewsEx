@@ -102,7 +102,7 @@ public class resultActivity extends AppCompatActivity implements AdapterView.OnI
             sum = (position * (2 * frstNum + (position - 1) * multNum)) / 2;
         }
         indexTV.setText(position+"");
-        if (sum > 1000000 || sum < -100000) {
+        if (sum > 1000000 || sum < -1000000) {
             sumTV.setText(shortNum(sum)+"");
         } else {
             sumTV.setText(sum+"");
